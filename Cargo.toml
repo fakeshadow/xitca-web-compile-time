@@ -1,0 +1,16 @@
+[package]
+name = "compile-time"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+xitca-web = { version = "0.1" }
+
+[patch.crates-io]
+xitca-http = { git = "https://github.com/HFQR/xitca-web", rev = "d79f510197e0f36534fe22b7a467c55dbd683681" }
+xitca-io = { git = "https://github.com/HFQR/xitca-web", rev = "d79f510197e0f36534fe22b7a467c55dbd683681" }
+xitca-router = { git = "https://github.com/HFQR/xitca-web", rev = "d79f510197e0f36534fe22b7a467c55dbd683681" }
+xitca-server = { git = "https://github.com/HFQR/xitca-web", rev = "d79f510197e0f36534fe22b7a467c55dbd683681" }
+xitca-service = { git = "https://github.com/HFQR/xitca-web", rev = "d79f510197e0f36534fe22b7a467c55dbd683681" }
+xitca-unsafe-collection = { git = "https://github.com/HFQR/xitca-web", rev = "d79f510197e0f36534fe22b7a467c55dbd683681" }
+xitca-web = { git = "https://github.com/HFQR/xitca-web", rev = "d79f510197e0f36534fe22b7a467c55dbd683681" }
